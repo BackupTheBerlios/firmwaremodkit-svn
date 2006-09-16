@@ -1,6 +1,6 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.48 beta'
+VERSION='0.485 beta'
 #
 # Title: build_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
@@ -121,7 +121,7 @@ MakeCramfs ()
 		echo "  ERROR: creating cramfs file system failed.".
 		exit "$?"
 	else
-		echo "  Successfully creted cramfs image."
+		echo "  Successfully created cramfs image."
 	fi
 }
 
