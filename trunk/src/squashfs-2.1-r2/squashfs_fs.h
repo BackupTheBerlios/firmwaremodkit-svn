@@ -118,6 +118,9 @@ typedef unsigned int			squashfs_fragment_index;
 #define SQUASHFS_FRAGMENT_INDEX_BYTES(A)	(SQUASHFS_FRAGMENT_INDEXES(A) * sizeof(squashfs_fragment_index))
 #define SQUASHFS_CACHED_FRAGMENTS	3
 
+/* from squashfs 3.0 */
+#define SQUASHFS_INVALID_FRAG		((unsigned int) 0xffffffff)
+
 /* cached data constants for filesystem */
 #define SQUASHFS_CACHED_BLKS		8
 
