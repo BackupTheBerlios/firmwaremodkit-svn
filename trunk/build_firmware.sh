@@ -1,6 +1,6 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.485 beta'
+VERSION='0.49 beta'
 #
 # Title: build_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
