@@ -107,8 +107,7 @@ typedef struct _VxFileDescriptor
 // VxLinksysHeader
 //
 //
-#pragma pack(push)
-#pragma pack(1)
+#pragma pack(push,1)
 typedef struct _VxLinksysHeader
 {
   DWORD nCodePattern;			
