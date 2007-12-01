@@ -11,13 +11,13 @@ all: asustrx addpattern untrx motorola-bin
 	make -C ./wrt_vx_imgtool/
 
 addpattern: addpattern.o
-	$(CC) addpattern.o -lz -o $@
+	$(CC) addpattern.o -o $@
 
 untrx: untrx.o
-	$(CXX) untrx.o -lz -o $@
+	$(CXX) untrx.o -o $@
 
 asustrx: asustrx.o
-	$(CC) asustrx.o -lz -o $@
+	$(CC) asustrx.o -o $@
 
 motorola-bin: motorola-bin.o
 	$(CC) motorola-bin.o -o $@
