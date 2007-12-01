@@ -1,10 +1,10 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.49 beta'
+VERSION='0.50 beta'
 #
 # Title: build_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
-# Site: http://www.bitsum.com
+# Site: http://www.bitsum.com/firmware_mod_kit.htm
 #
 # Script to build a cybertan format firmware
 # with a squashfs-lzma filesystem.
@@ -28,7 +28,7 @@ VERSION='0.49 beta'
 FIRMARE_BASE_NAME=custom_image
 EXIT_ON_FS_PROBLEM="0"
 
-echo "$0 v$VERSION, (c)2006 Jeremy Collake"
+echo "$0 v$VERSION, (c)2006-2007 Jeremy Collake"
 
 #################################################################
 # InvokeTRX ( OutputDir, WorkingDir, filesystem image filename )

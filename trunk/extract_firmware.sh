@@ -1,10 +1,10 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.49 beta'
+VERSION='0.50 beta'
 #
 # Title: extract_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
-# Site: http://www.bitsum.com
+# Site: http://www.bitsum.com/firmware_mod_kit.htm
 #
 # Script to extract a cybertan format firmware
 # with a squashfs-lzma filesystem.
