@@ -1,6 +1,6 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.50 beta'
+VERSION='0.51 beta'
 #
 # Title: extract_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
@@ -27,7 +27,7 @@ VERSION='0.50 beta'
 #
 EXIT_ON_FS_PROBLEM="0"
 
-echo "$0 v$VERSION, (c)2006 Jeremy Collake"
+echo "$0 v$VERSION, (c)2006-2008 Jeremy Collake"
 
 #################################################################
 #################################################################

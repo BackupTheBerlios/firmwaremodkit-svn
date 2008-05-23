@@ -1,6 +1,6 @@
 #!/bin/sh
 . "./shared.inc"
-VERSION='0.50 beta'
+VERSION='0.51 beta'
 #
 # Title: build_firmware.sh
 # Author: Jeremy Collake <jeremy.collake@gmail.com>
@@ -28,7 +28,7 @@ VERSION='0.50 beta'
 FIRMARE_BASE_NAME=custom_image
 EXIT_ON_FS_PROBLEM="0"
 
-echo "$0 v$VERSION, (c)2006-2007 Jeremy Collake"
+echo "$0 v$VERSION, (c)2006-2008 Jeremy Collake. Please consider donating."
 
 #################################################################
 # InvokeTRX ( OutputDir, WorkingDir, filesystem image filename )
